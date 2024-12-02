@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conductor Eric (ENGINE)</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            background: url("background.jpg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            font-size: 3em;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+        .container {
+            padding: 20px;
+            width: 90%;
+            max-width: 1200px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+            margin-top: 20px;
+        }
+        .section {
+            margin: 30px 0;
+        }
+        .section h2 {
+            color: #ffd700;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #ffd700;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .links a {
+            display: inline-block;
+            margin: 10px 10px 10px 0;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            background: #ffd700;
+            color: black;
+            border-radius: 25px;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .links a:hover {
+            background: #ffcc00;
+            transform: translateY(-5px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.6);
+        }
+        footer {
+            margin-top: auto;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Conductor Eric</h1>
+        <p>The Money Train Powered by ENGINE</p>
+    </header>
+    <div class="container">
+        <div class="section">
+            <h2>About Conductor Eric</h2>
+            <p>Conductor Eric drives the money train. He came up from poverty and became wealthy in crypto, but never forgot his roots. Wherever he goes, he brings generosity and kindness.</p>
+        </div>
+        <div class="section">
+            <h2>Token Details</h2>
+            <p><strong>Name:</strong> Conductor Eric</p>
+            <p><strong>Ticker:</strong> ENGINE</p>
+            <p><strong>Contract Address:</strong> 46K1Mwjtn8poQpp7p8oQq1yin9WDrPDYKGGVdQFekoTn</p>
+        </div>
+        <div class="section">
+            <h2>Community Links</h2>
+            <div class="links">
+                <a href="https://x.com/ConductorEric" target="_blank">Twitter</a>
+                <a href="https://t.me/+5NPvUr6XFU05YmMx" target="_blank">Telegram</a>
+                <a href="https://www.facebook.com/groups/1101602754964365" target="_blank">Facebook Group</a>
+                <a href="https://www.reddit.com/r/ConductorEric/hot/" target="_blank">Reddit</a>
+                <a href="https://phantom.app/tokens/solana/46K1Mwjtn8poQpp7p8oQq1yin9WDrPDYKGGVdQFekoTn?referralId=7mannecnj6k" target="_blank">Buy on Phantom</a>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="PHOTO-2024-12-01-11-48-03.jpg" alt="Conductor Eric Image 1">
+                <img src="PHOTO-2024-12-01-11-48-03 2.jpg" alt="Conductor Eric Image 2">
+                <img src="PHOTO-2024-12-01-11-48-03 3.jpg" alt="Conductor Eric Image 3">
+                <img src="PHOTO-2024-12-01-11-48-02 9.jpg" alt="Conductor Eric Image 4">
+                <img src="PHOTO-2024-12-01-11-48-02 8.jpg" alt="Conductor Eric Image 5">
+                <img src="PHOTO-2024-12-01-11-48-02 7.jpg" alt="Conductor Eric Image 6">
+                <img src="PHOTO-2024-12-01-11-48-02 6.jpg" alt="Conductor Eric Image 7">
+                <img src="PHOTO-2024-12-01-11-48-02 5.jpg" alt="Conductor Eric Image 8">
+                <img src="PHOTO-2024-12-01-11-48-02 4.jpg" alt="Conductor Eric Image 9">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Conductor Eric. All rights reserved.</p>
+    </footer>
+</body>
+</html>
